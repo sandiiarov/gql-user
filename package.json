@@ -1,5 +1,5 @@
 {
-  "name": "@gql-gateway/graphql-user",
+  "name": "gql-user",
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.ts",
