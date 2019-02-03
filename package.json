@@ -22,9 +22,9 @@
     "eslint-plugin-prettier": "3.0.1",
     "graphql-code-generator": "0.16.1",
     "graphql-codegen-typescript-common": "0.16.1",
-    "graphql-codegen-typescript-resolvers": "0.16.0",
-    "graphql-codegen-typescript-server": "0.16.0",
-    "prettier": "1.16.3",
+    "graphql-codegen-typescript-resolvers": "0.16.1",
+    "graphql-codegen-typescript-server": "0.16.1",
+    "prettier": "1.16.4",
     "ts-node-dev": "1.0.0-pre.32",
     "typescript": "3.2.1"
   }
