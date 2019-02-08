@@ -1,9 +1,6 @@
-import { ApolloServer, gql } from 'apollo-server-express';
-import express from 'express';
+import { ApolloServer, gql } from 'apollo-server';
 import fs from 'fs';
 import { resolvers } from './resolvers';
-
-const app = express();
 
 const server = new ApolloServer({
   typeDefs: gql(fs.readFileSync('./src/schema.graphql', 'utf8')),
@@ -11,8 +8,6 @@ const server = new ApolloServer({
   introspection: true,
 });
 
-server.applyMiddleware({ app });
-
-app.listen(4001, async () => {
-  console.log(`🚀 RUNNING @ ${4001}`);
+server.listen({ port: 4001 }).then(({ url }) => {
+  console.log(`🚀  ${url}`);
 });
