@@ -8,7 +8,7 @@
     "generate": "gql-gen"
   },
   "dependencies": {
-    "apollo-server": "2.4.0",
+    "apollo-server": "2.14.2",
     "graphql": "14.1.1",
     "isomorphic-fetch": "2.2.1"
   },
